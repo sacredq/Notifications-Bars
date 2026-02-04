@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Notifications w Js</title>
+        <link rel = "stylesheet" href = "style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    </head>
+    <body>
+        <div class = "hidden_bars">
+            <div id = "successBar" class = "Bar">
+                <div class = "icon icon1">
+                    <i class="fa-solid fa-check"></i>
+                </div>
+
+                <div class = "text">
+                    <h3>Success: This is a seccess bar</h3>
+                </div>
+
+                <div id = "xmark" class = "icon">
+                    <i class="fa-solid fa-xmark"></i>
+                </div>
+            </div>
+
+            <div id = "warningBar" class = "Bar">
+                <div class = "icon icon2">
+                    <i class="fa-solid fa-triangle-exclamation"></i>
+                </div>
+
+                <div class = "text">
+                    <h3>Warning: This is a warning bar</h3>
+                </div>
+
+                <div id = "xmark2" class = "icon">
+                   <i class="fa-solid fa-xmark"></i>
+                </div>
+            </div>
+
+            <div id = "infoBar" class = "Bar">
+                <div class = "icon icon3">
+                    <i class="fa-solid fa-info"></i>
+                </div>
+
+                <div class = "text textI">
+                    <h3>Info: This is a information bar</h3>
+                </div>
+
+                <div id = "xmark3" class = "icon">
+                    <i class="fa-solid fa-xmark"></i>
+                </div>
+            </div>
+
+            <div id = "errorBar" class = "Bar">
+                <div class = "icon icon4">
+                    <i class="fa-solid fa-xmark"></i>
+                </div>
+
+                <div class = "text">
+                    <h3>Error: This is an error bar</h3>
+                </div>
+
+                <div id = "xmark4" class = "icon">
+                    <i class="fa-solid fa-xmark"></i>
+                </div>
+            </div>
+
+
+        </div>
+        <div class = "container_box">
+            <div class = "buttons">
+                <button id = "successBtn">Success</button>
+                <button id = "warningBtn">Warning</button>
+                <button id = "notificationsBtn">Notifications</button>
+                <button id = "errorBtn">Error</button>
+            </div>
+        </div>
+        <script src = "main.js"></script>
+    </body>
+</html>
